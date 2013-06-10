@@ -23,10 +23,10 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:list id="pl_fr_normandieuniv_cemnws_db_CemnEtu" items="${cemnetus}" z="LwyScTy0gkiCJtrr4kd3c9mMiRY=">
         <table:table data="${cemnetus}" delete="false" id="l_fr_normandieuniv_cemnws_db_CemnEtu" path="/cemnetus" typeIdFieldName="codEtu" update="false" z="8MAVOhQ3fdE7V9zuODcKzjBEnbY=">
-            <table:column id="codEtu" property="codEtu" label="codEtu"/>
+            <table:column id="codEtu" label="codEtu" property="codEtu"/>
+            <table:column id="c_fr_normandieuniv_cemnws_db_CemnEtu_nomUsuel" property="nomUsuel" render="false" z="user-managed"/>
+            <table:column id="c_fr_normandieuniv_cemnws_db_CemnEtu_nomPat" property="nomPat" render="false" z="user-managed"/>
             <table:column id="c_fr_normandieuniv_cemnws_db_CemnEtu_nomSurCarte" property="nomSurCarte" z="AV/fg77yiU02qtksE0qirvsqGEg="/>
-            <table:column id="c_fr_normandieuniv_cemnws_db_CemnEtu_nomUsuel" property="nomUsuel" z="BiQaf27gREltY/M0uWJTGWjMbW4=" render="false"/>
-            <table:column id="c_fr_normandieuniv_cemnws_db_CemnEtu_nomPat" property="nomPat" z="Jdzpb+rSUqK9TeSw/N94Rx/xnG8="  render="false"/>
             <table:column id="c_fr_normandieuniv_cemnws_db_CemnEtu_prenom" property="prenom" z="9gknuSRMTzzqfoTQAthyyQgnN2c="/>
             <table:column calendar="true" dateTimePattern="${cemnEtu_datenai_date_format}" id="c_fr_normandieuniv_cemnws_db_CemnEtu_dateNai" property="dateNai" z="7T1yhycsS/lDmzd8AAWJX4wr2Mc="/>
             <table:column id="c_fr_normandieuniv_cemnws_db_CemnEtu_titreCarte" property="titreCarte" z="ntRXjOlaARB6C2rqDK84XbFLPNk="/>

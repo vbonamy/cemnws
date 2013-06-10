@@ -31,10 +31,10 @@
         <menu:category id="c_cemnetu" label="Requêtes 'directes' en BD" z="user-managed">
             <menu:item id="i_cemnetu_list" messageCode="global_menu_list" url="/cemnetus?page=1&amp;size=${empty param.size ? 10 : param.size}" z="90gn3kxBxCAx5FjrS7W6OyEtQOc="/>
             <menu:item id="fi_cemnetu_anneeuniequals" messageCode="global_menu_find" url="/cemnetus?find=ByAnneeUniEquals&amp;form" z="VFctC21tcU54i+ai5thAa53MOsg="/>
-            <menu:item id="fi_cemnetu_anneeuniequalsandnomsurcartelike" messageCode="global_menu_find" url="/cemnetus?find=ByAnneeUniEqualsAndNomSurCarteLike&amp;form" z="ISMsqwCiymeqiKB2+dXCblaaAYM="/>
             <menu:item id="fi_cemnetu_anneeuniequalsandcodetuequals" messageCode="global_menu_find" url="/cemnetus?find=ByAnneeUniEqualsAndCodEtuEquals&amp;form" z="gugbvljUNs2OwZJCaYGUq7CkORE="/>
             <menu:item id="fi_cemnetu_anneeuniequalsandcodetuequalsandnomsurcartelike" messageCode="global_menu_find" url="/cemnetus?find=ByAnneeUniEqualsAndCodEtuEqualsAndNomSurCarteLike&amp;form" z="85E635dw1kGLrMcQkakgLIia1Fk="/>
             <menu:item id="fi_cemnetu_anneeuniequalsandcodetuequalsoranneeuniequalsandnomsurcartelike" messageCode="global_menu_find" url="/cemnetus?find=ByAnneeUniEqualsAndCodEtuEqualsOrAnneeUniEqualsAndNomSurCarteLike&amp;form" z="xWwbODS0aALlX4avVxr9DovczZs="/>
+            <menu:item id="fi_cemnetu_anneeuniequalsandnomsurcartelike" messageCode="global_menu_find" url="/cemnetus?find=ByAnneeUniEqualsAndNomSurCarteLike&amp;form" z="ISMsqwCiymeqiKB2+dXCblaaAYM="/>
         </menu:category>
     </menu:menu>
 </div>
