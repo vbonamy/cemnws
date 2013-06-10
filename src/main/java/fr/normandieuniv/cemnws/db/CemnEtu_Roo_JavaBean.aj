@@ -24,4 +24,20 @@ privileged aspect CemnEtu_Roo_JavaBean {
         this.refNu = refNu;
     }
     
+    public String CemnEtu.getPersid() {
+        return this.persid;
+    }
+    
+    public void CemnEtu.setPersid(String persid) {
+        this.persid = persid;
+    }
+    
+    public String CemnEtu.getEmailEtab() {
+        return this.emailEtab;
+    }
+    
+    public void CemnEtu.setEmailEtab(String emailEtab) {
+        this.emailEtab = emailEtab;
+    }
+    
 }

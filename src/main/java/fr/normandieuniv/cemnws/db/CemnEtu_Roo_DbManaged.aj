@@ -65,9 +65,6 @@ privileged aspect CemnEtu_Roo_DbManaged {
     @Column(name = "BDE")
     private Character CemnEtu.bde;
     
-    @Column(name = "PERSID")
-    private Character CemnEtu.persid;
-    
     @Column(name = "COD_ETP", length = 6)
     private String CemnEtu.codEtp;
     
@@ -100,9 +97,6 @@ privileged aspect CemnEtu_Roo_DbManaged {
     
     @Column(name = "RNE_CMP", length = 8)
     private String CemnEtu.rneCmp;
-    
-    @Column(name = "EMAIL_ETAB")
-    private Character CemnEtu.emailEtab;
     
     @Column(name = "N_TEL_PORT", length = 15)
     private String CemnEtu.nTelPort;
@@ -235,14 +229,6 @@ privileged aspect CemnEtu_Roo_DbManaged {
         this.bde = bde;
     }
     
-    public Character CemnEtu.getPersid() {
-        return persid;
-    }
-    
-    public void CemnEtu.setPersid(Character persid) {
-        this.persid = persid;
-    }
-    
     public String CemnEtu.getCodEtp() {
         return codEtp;
     }
@@ -329,14 +315,6 @@ privileged aspect CemnEtu_Roo_DbManaged {
     
     public void CemnEtu.setRneCmp(String rneCmp) {
         this.rneCmp = rneCmp;
-    }
-    
-    public Character CemnEtu.getEmailEtab() {
-        return emailEtab;
-    }
-    
-    public void CemnEtu.setEmailEtab(Character emailEtab) {
-        this.emailEtab = emailEtab;
     }
     
     public String CemnEtu.getNTelPort() {

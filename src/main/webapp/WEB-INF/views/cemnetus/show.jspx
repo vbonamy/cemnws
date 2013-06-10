@@ -24,6 +24,7 @@
     <page:show create="false" delete="false" id="ps_fr_normandieuniv_cemnws_db_CemnEtu" object="${cemnetu}" path="/cemnetus" update="false" z="/XY24faRKSS8T+MP2OHZld76jjA=">
         <field:display field="codEtu" id="codEtu" label="codEtu" object="${cemnetu}"/>
         <field:display field="refNu" id="s_fr_normandieuniv_cemnws_db_CemnEtu_refNu" object="${cemnetu}" z="OlYasP1MF57I9vjdlL3w1rQ7ZLE="/>
+        <field:display field="persid" id="s_fr_normandieuniv_cemnws_db_CemnEtu_persid" object="${cemnetu}" z="+f6cW8pxb27j07GeSPEPaPTmJyE="/>
         <field:display field="nomSurCarte" id="s_fr_normandieuniv_cemnws_db_CemnEtu_nomSurCarte" object="${cemnetu}" z="dQ29zJjeWKlWrpKvJlyoPBwQgS4="/>
         <field:display field="nomUsuel" id="s_fr_normandieuniv_cemnws_db_CemnEtu_nomUsuel" object="${cemnetu}" z="bTwhyoDHtL74meVVkelcwjXlMBI="/>
         <field:display field="nomPat" id="s_fr_normandieuniv_cemnws_db_CemnEtu_nomPat" object="${cemnetu}" z="k7RImJbgf85CWn6XBYNhgF3je+c="/>
@@ -40,7 +41,6 @@
         <field:display field="composante" id="s_fr_normandieuniv_cemnws_db_CemnEtu_composante" object="${cemnetu}" z="Ig5P8t9nkVvs9tV4dUNHnax5IoY="/>
         <field:display field="suaps" id="s_fr_normandieuniv_cemnws_db_CemnEtu_suaps" object="${cemnetu}" z="zhlJoeGnQIO/uvIe6g0NfjmBXkQ="/>
         <field:display field="bde" id="s_fr_normandieuniv_cemnws_db_CemnEtu_bde" object="${cemnetu}" z="ro0k4nG2CvApha45jjy/TcXFPjQ="/>
-        <field:display field="persid" id="s_fr_normandieuniv_cemnws_db_CemnEtu_persid" object="${cemnetu}" z="+f6cW8pxb27j07GeSPEPaPTmJyE="/>
         <field:display field="codEtp" id="s_fr_normandieuniv_cemnws_db_CemnEtu_codEtp" object="${cemnetu}" z="X5xWArOlmbu8Ldf7+h2haRxTc5M="/>
         <field:display field="codVrsVet" id="s_fr_normandieuniv_cemnws_db_CemnEtu_codVrsVet" object="${cemnetu}" z="MoiZFP5aKpabimqjG81o+3ICYXo="/>
         <field:display field="licEtp" id="s_fr_normandieuniv_cemnws_db_CemnEtu_licEtp" object="${cemnetu}" z="n5bgMRMNMn5V9er2uIQFVXZYKZw="/>
@@ -52,7 +52,7 @@
         <field:display field="statut" id="s_fr_normandieuniv_cemnws_db_CemnEtu_statut" object="${cemnetu}" z="XBeXhWnQLRhUS2G0vxFUzfVLhCI="/>
         <field:display field="rneEtab" id="s_fr_normandieuniv_cemnws_db_CemnEtu_rneEtab" object="${cemnetu}" z="6qPvaTag9UapyprQtOKqOLUwXmo="/>
         <field:display field="rneCmp" id="s_fr_normandieuniv_cemnws_db_CemnEtu_rneCmp" object="${cemnetu}" z="LryD2rqFcNba6LoYgHN8cXIDvsA="/>
-        <field:display field="emailEtab" id="s_fr_normandieuniv_cemnws_db_CemnEtu_emailEtab" object="${cemnetu}" z="HEbwNb+HepQliDg4B89M0hN2zJQ="/>
         <field:display field="NTelPort" id="s_fr_normandieuniv_cemnws_db_CemnEtu_nTelPort" object="${cemnetu}" z="gH7vbA1TlHzaZR/kinuqisHHI58="/>
+        <field:display field="emailEtab" id="s_fr_normandieuniv_cemnws_db_CemnEtu_emailEtab" object="${cemnetu}" z="HEbwNb+HepQliDg4B89M0hN2zJQ="/>
     </page:show>
 </div>

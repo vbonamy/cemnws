@@ -39,6 +39,12 @@ public class CemnEtu {
     
     @Column(name = "REF_NU", columnDefinition = "char")
     private String refNu;
+      
+    @Column(name = "PERSID")
+    private String persid;
+        
+    @Column(name = "EMAIL_ETAB")
+    private String emailEtab;
 
     public static TypedQuery<fr.normandieuniv.cemnws.db.CemnEtu> findCemnEtusByAnneeUniEqualsAndCodEtuEqualsAndNomSurCarteLike(String anneeUni, BigDecimal codEtu, String nomSurCarte) {
         if (anneeUni == null || anneeUni.length() == 0) throw new IllegalArgumentException("The anneeUni argument is required");
