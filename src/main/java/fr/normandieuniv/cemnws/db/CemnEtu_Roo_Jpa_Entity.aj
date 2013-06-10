@@ -11,6 +11,6 @@ privileged aspect CemnEtu_Roo_Jpa_Entity {
     
     declare @type: CemnEtu: @Entity;
     
-    declare @type: CemnEtu: @Table(schema = "APOGEE", name = "CEMN_ETU");
+    declare @type: CemnEtu: @Table(schema = "APOGEE", name = "V_NORMANDIE_LEOCARTE_ETU");
     
 }

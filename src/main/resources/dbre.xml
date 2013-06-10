@@ -24,7 +24,7 @@
     <option key="activeRecord" value="true"/>
     <option key="includeNonPortableAttributes" value="false"/>
     <option key="testAutomatically" value="false"/>
-    <table alias="APOGEE" name="CEMN_ETU">
+    <table alias="APOGEE" name="V_NORMANDIE_LEOCARTE_ETU">
         <column name="NOM_SUR_CARTE" primaryKey="false" required="false" scale="0" size="30" type="12,VARCHAR2"/>
         <column name="NOM_USUEL" primaryKey="false" required="false" scale="0" size="30" type="12,VARCHAR2"/>
         <column name="NOM_PAT" primaryKey="false" required="false" scale="0" size="30" type="12,VARCHAR2"/>
