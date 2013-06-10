@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+
+    Licensed to Universite de Rouen under one or more contributor license
+    agreements. See the NOTICE file distributed with this work for
+    additional information regarding copyright ownership.
+
+    Universite de Rouen licenses this file to you under the Apache License,
+    Version 2.0 (the "License"); you may not use this file except in
+    compliance with the License. You may obtain a copy of the License at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show create="false" delete="false" id="ps_fr_normandieuniv_cemnws_db_CemnEtu" object="${cemnetu}" path="/cemnetus" update="false" z="/XY24faRKSS8T+MP2OHZld76jjA=">
+        <field:display field="codEtu" id="codEtu" label="codEtu" object="${cemnetu}"/>
+        <field:display field="refNu" id="s_fr_normandieuniv_cemnws_db_CemnEtu_refNu" object="${cemnetu}" z="OlYasP1MF57I9vjdlL3w1rQ7ZLE="/>
+        <field:display field="nomSurCarte" id="s_fr_normandieuniv_cemnws_db_CemnEtu_nomSurCarte" object="${cemnetu}" z="dQ29zJjeWKlWrpKvJlyoPBwQgS4="/>
+        <field:display field="nomUsuel" id="s_fr_normandieuniv_cemnws_db_CemnEtu_nomUsuel" object="${cemnetu}" z="bTwhyoDHtL74meVVkelcwjXlMBI="/>
+        <field:display field="nomPat" id="s_fr_normandieuniv_cemnws_db_CemnEtu_nomPat" object="${cemnetu}" z="k7RImJbgf85CWn6XBYNhgF3je+c="/>
+        <field:display field="prenom" id="s_fr_normandieuniv_cemnws_db_CemnEtu_prenom" object="${cemnetu}" z="rGrYyr0o7aawxTiw0hvrCHxNIss="/>
+        <field:display calendar="true" dateTimePattern="${cemnEtu_datenai_date_format}" field="dateNai" id="s_fr_normandieuniv_cemnws_db_CemnEtu_dateNai" object="${cemnetu}" z="NUCmxjdtAMkeX9kGuuJ1CCEuu4o="/>
+        <field:display field="titreCarte" id="s_fr_normandieuniv_cemnws_db_CemnEtu_titreCarte" object="${cemnetu}" z="7mZhzozBw/uVs/BMt/OJMNUbPDs="/>
+        <field:display calendar="true" dateTimePattern="${cemnEtu_datefinval_date_format}" field="dateFinVal" id="s_fr_normandieuniv_cemnws_db_CemnEtu_dateFinVal" object="${cemnetu}" z="NlpzWNow5WL1GUIAvFdjt92fE/s="/>
+        <field:display field="ine" id="s_fr_normandieuniv_cemnws_db_CemnEtu_ine" object="${cemnetu}" z="ZAFcMqsTM3bOWZRZzPqDZ+AHuKM="/>
+        <field:display field="cleIne" id="s_fr_normandieuniv_cemnws_db_CemnEtu_cleIne" object="${cemnetu}" z="JW7xAQcr0zqdilSbQP6zHvzzIj0="/>
+        <field:display field="codeCentreSecu" id="s_fr_normandieuniv_cemnws_db_CemnEtu_codeCentreSecu" object="${cemnetu}" z="PCavPFnyDRtrbiPojM/7zPZXW7Q="/>
+        <field:display field="centreSecu" id="s_fr_normandieuniv_cemnws_db_CemnEtu_centreSecu" object="${cemnetu}" z="BnvQjSD2FxLEQP2UB2LEFga3+Z4="/>
+        <field:display field="anneeUni" id="s_fr_normandieuniv_cemnws_db_CemnEtu_anneeUni" object="${cemnetu}" z="NxKQS3C+9UR+MvF4vEAhkyAepn8="/>
+        <field:display field="codCmp" id="s_fr_normandieuniv_cemnws_db_CemnEtu_codCmp" object="${cemnetu}" z="5MqNjsAccU+MXg3rK4WpWCaRF9o="/>
+        <field:display field="composante" id="s_fr_normandieuniv_cemnws_db_CemnEtu_composante" object="${cemnetu}" z="Ig5P8t9nkVvs9tV4dUNHnax5IoY="/>
+        <field:display field="suaps" id="s_fr_normandieuniv_cemnws_db_CemnEtu_suaps" object="${cemnetu}" z="zhlJoeGnQIO/uvIe6g0NfjmBXkQ="/>
+        <field:display field="bde" id="s_fr_normandieuniv_cemnws_db_CemnEtu_bde" object="${cemnetu}" z="ro0k4nG2CvApha45jjy/TcXFPjQ="/>
+        <field:display field="persid" id="s_fr_normandieuniv_cemnws_db_CemnEtu_persid" object="${cemnetu}" z="+f6cW8pxb27j07GeSPEPaPTmJyE="/>
+        <field:display field="codEtp" id="s_fr_normandieuniv_cemnws_db_CemnEtu_codEtp" object="${cemnetu}" z="X5xWArOlmbu8Ldf7+h2haRxTc5M="/>
+        <field:display field="codVrsVet" id="s_fr_normandieuniv_cemnws_db_CemnEtu_codVrsVet" object="${cemnetu}" z="MoiZFP5aKpabimqjG81o+3ICYXo="/>
+        <field:display field="licEtp" id="s_fr_normandieuniv_cemnws_db_CemnEtu_licEtp" object="${cemnetu}" z="n5bgMRMNMn5V9er2uIQFVXZYKZw="/>
+        <field:display field="codEtp2nde" id="s_fr_normandieuniv_cemnws_db_CemnEtu_codEtp2nde" object="${cemnetu}" z="rKrkPbXKxE3kwjMBt9MriEQseVk="/>
+        <field:display field="codVrsVet2nde" id="s_fr_normandieuniv_cemnws_db_CemnEtu_codVrsVet2nde" object="${cemnetu}" z="77GTtITfn9MsRHBfeSHFitdYf3g="/>
+        <field:display field="licEtp2nde" id="s_fr_normandieuniv_cemnws_db_CemnEtu_licEtp2nde" object="${cemnetu}" z="jrQ/fNjS65IQbSSm64+m3xX2tUQ="/>
+        <field:display field="codCmp2nde" id="s_fr_normandieuniv_cemnws_db_CemnEtu_codCmp2nde" object="${cemnetu}" z="hqKHxbq6/sObbr7knHJuBq7O/3k="/>
+        <field:display field="composante2nde" id="s_fr_normandieuniv_cemnws_db_CemnEtu_composante2nde" object="${cemnetu}" z="e2j42hTtE4s3uXC/Qd4snLS2MC4="/>
+        <field:display field="statut" id="s_fr_normandieuniv_cemnws_db_CemnEtu_statut" object="${cemnetu}" z="XBeXhWnQLRhUS2G0vxFUzfVLhCI="/>
+        <field:display field="rneEtab" id="s_fr_normandieuniv_cemnws_db_CemnEtu_rneEtab" object="${cemnetu}" z="6qPvaTag9UapyprQtOKqOLUwXmo="/>
+        <field:display field="rneCmp" id="s_fr_normandieuniv_cemnws_db_CemnEtu_rneCmp" object="${cemnetu}" z="LryD2rqFcNba6LoYgHN8cXIDvsA="/>
+        <field:display field="emailEtab" id="s_fr_normandieuniv_cemnws_db_CemnEtu_emailEtab" object="${cemnetu}" z="HEbwNb+HepQliDg4B89M0hN2zJQ="/>
+        <field:display field="NTelPort" id="s_fr_normandieuniv_cemnws_db_CemnEtu_nTelPort" object="${cemnetu}" z="gH7vbA1TlHzaZR/kinuqisHHI58="/>
+    </page:show>
+</div>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+
+    Licensed to Universite de Rouen under one or more contributor license
+    agreements. See the NOTICE file distributed with this work for
+    additional information regarding copyright ownership.
+
+    Universite de Rouen licenses this file to you under the Apache License,
+    Version 2.0 (the "License"); you may not use this file except in
+    compliance with the License. You may obtain a copy of the License at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_fr_normandieuniv_cemnws_db_CemnEtu" items="${cemnetus}" z="LwyScTy0gkiCJtrr4kd3c9mMiRY=">
+        <table:table data="${cemnetus}" delete="false" id="l_fr_normandieuniv_cemnws_db_CemnEtu" path="/cemnetus" typeIdFieldName="codEtu" update="false" z="8MAVOhQ3fdE7V9zuODcKzjBEnbY=">
+            <table:column id="codEtu" property="codEtu" label="codEtu"/>
+            <table:column id="c_fr_normandieuniv_cemnws_db_CemnEtu_nomSurCarte" property="nomSurCarte" z="AV/fg77yiU02qtksE0qirvsqGEg="/>
+            <table:column id="c_fr_normandieuniv_cemnws_db_CemnEtu_nomUsuel" property="nomUsuel" z="BiQaf27gREltY/M0uWJTGWjMbW4=" render="false"/>
+            <table:column id="c_fr_normandieuniv_cemnws_db_CemnEtu_nomPat" property="nomPat" z="Jdzpb+rSUqK9TeSw/N94Rx/xnG8="  render="false"/>
+            <table:column id="c_fr_normandieuniv_cemnws_db_CemnEtu_prenom" property="prenom" z="9gknuSRMTzzqfoTQAthyyQgnN2c="/>
+            <table:column calendar="true" dateTimePattern="${cemnEtu_datenai_date_format}" id="c_fr_normandieuniv_cemnws_db_CemnEtu_dateNai" property="dateNai" z="7T1yhycsS/lDmzd8AAWJX4wr2Mc="/>
+            <table:column id="c_fr_normandieuniv_cemnws_db_CemnEtu_titreCarte" property="titreCarte" z="ntRXjOlaARB6C2rqDK84XbFLPNk="/>
+        </table:table>
+    </page:list>
+</div>
