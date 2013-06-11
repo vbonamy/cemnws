@@ -95,7 +95,7 @@ public class CemnWsSearchService {
 			}
 		}
 
-		long endTime = System.nanoTime();
+		long endTime = System.currentTimeMillis();	
 		double duration = (endTime - startTime)/1000.0;
 		
 		log.info("return " + urcemns.size() + " in " + duration + " seconds.");

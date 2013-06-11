@@ -4,7 +4,7 @@
     <groupId>fr.normandieuniv.cemnws</groupId>
     <artifactId>cemnws</artifactId>
     <packaging>war</packaging>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <name>cemnws</name>
     <properties>
         <aspectj.version>1.7.0</aspectj.version>
