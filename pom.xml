@@ -4,7 +4,7 @@
     <groupId>fr.normandieuniv.cemnws</groupId>
     <artifactId>cemnws</artifactId>
     <packaging>war</packaging>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <name>cemnws</name>
     <properties>
         <aspectj.version>1.7.0</aspectj.version>
@@ -318,6 +318,10 @@
         	  <exclusion>
            		<groupId>org.jvnet.staxex</groupId>
       			<artifactId>stax-ex</artifactId>
+        	  </exclusion>
+        	  <exclusion>
+        	  	<artifactId>spring</artifactId>
+        	  	<groupId>org.springframework</groupId>
         	  </exclusion>
 		</exclusions>
 	</dependency>
