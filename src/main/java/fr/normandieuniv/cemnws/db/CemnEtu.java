@@ -23,7 +23,7 @@ public class CemnEtu {
     @Column(name = "REF_NU", columnDefinition = "char")
     private String refNu;
 
-    @Column(name = "PERSID", columnDefinition = "char")
+    @Column(name = "PERSID")
     private String persid;
 
     @Column(name = "EMAIL_ETAB")
