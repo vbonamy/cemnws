@@ -43,10 +43,10 @@ public class CemnWsSearchService {
 		long startTime = System.currentTimeMillis();	
 		log.info("search(" + anneeUniv + ", " + codEtu + ", " + nom + ", " + operator + ")");
 		
-		if(codEtu.trim().isEmpty())
+		if(codEtu != null && codEtu.trim().isEmpty())
 			codEtu = null;
 		
-		if(nom.trim().isEmpty())
+		if(nom != null && nom.trim().isEmpty())
 			nom = null;
 		
 		
