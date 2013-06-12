@@ -75,7 +75,7 @@ public class CemnWsSearchService {
 
 		else if (codEtu != null && nom != null) {
 			if (operator == null) {
-				throw new RuntimeException("codEtu et nom sont renseignés, operator doit être renseigné");
+				throw new RuntimeException("codEtu et nom sont renseignés, operator doit être renseigné et doit être égal à 0 ou 1");
 			}
 			if (operator.equals(0)) {
 				if (nom.length() >= 4) {

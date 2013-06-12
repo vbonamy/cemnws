@@ -44,6 +44,12 @@ privileged aspect CemnEtu_Roo_DbManaged {
     @Column(name = "CLE_INE", length = 1)
     private String CemnEtu.cleIne;
     
+    @Column(name = "CODE_BARRE")
+    private BigDecimal CemnEtu.codeBarre;
+    
+    @Column(name = "DROIT_PHOTO")
+    private BigDecimal CemnEtu.droitPhoto;
+    
     @Column(name = "CODE_CENTRE_SECU", length = 3)
     private String CemnEtu.codeCentreSecu;
     
@@ -52,6 +58,12 @@ privileged aspect CemnEtu_Roo_DbManaged {
     
     @Column(name = "ANNEE_UNI", length = 4)
     private String CemnEtu.anneeUni;
+    
+    @Column(name = "COD_CGE", length = 3)
+    private String CemnEtu.codCge;
+    
+    @Column(name = "LIB_CGE", length = 40)
+    private String CemnEtu.libCge;
     
     @Column(name = "COD_CMP", length = 3)
     private String CemnEtu.codCmp;
@@ -173,6 +185,22 @@ privileged aspect CemnEtu_Roo_DbManaged {
         this.cleIne = cleIne;
     }
     
+    public BigDecimal CemnEtu.getCodeBarre() {
+        return codeBarre;
+    }
+    
+    public void CemnEtu.setCodeBarre(BigDecimal codeBarre) {
+        this.codeBarre = codeBarre;
+    }
+    
+    public BigDecimal CemnEtu.getDroitPhoto() {
+        return droitPhoto;
+    }
+    
+    public void CemnEtu.setDroitPhoto(BigDecimal droitPhoto) {
+        this.droitPhoto = droitPhoto;
+    }
+    
     public String CemnEtu.getCodeCentreSecu() {
         return codeCentreSecu;
     }
@@ -195,6 +223,22 @@ privileged aspect CemnEtu_Roo_DbManaged {
     
     public void CemnEtu.setAnneeUni(String anneeUni) {
         this.anneeUni = anneeUni;
+    }
+    
+    public String CemnEtu.getCodCge() {
+        return codCge;
+    }
+    
+    public void CemnEtu.setCodCge(String codCge) {
+        this.codCge = codCge;
+    }
+    
+    public String CemnEtu.getLibCge() {
+        return libCge;
+    }
+    
+    public void CemnEtu.setLibCge(String libCge) {
+        this.libCge = libCge;
     }
     
     public String CemnEtu.getCodCmp() {

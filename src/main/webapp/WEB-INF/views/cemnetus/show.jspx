@@ -35,9 +35,13 @@
         <field:display calendar="true" dateTimePattern="${cemnEtu_datefinval_date_format}" field="dateFinVal" id="s_fr_normandieuniv_cemnws_db_CemnEtu_dateFinVal" object="${cemnetu}" z="NlpzWNow5WL1GUIAvFdjt92fE/s="/>
         <field:display field="ine" id="s_fr_normandieuniv_cemnws_db_CemnEtu_ine" object="${cemnetu}" z="ZAFcMqsTM3bOWZRZzPqDZ+AHuKM="/>
         <field:display field="cleIne" id="s_fr_normandieuniv_cemnws_db_CemnEtu_cleIne" object="${cemnetu}" z="JW7xAQcr0zqdilSbQP6zHvzzIj0="/>
+        <field:display field="codeBarre" id="s_fr_normandieuniv_cemnws_db_CemnEtu_codeBarre" object="${cemnetu}" z="lY+FSlBg1s/WuXPMzYtie/9VdvA="/>
+        <field:display field="droitPhoto" id="s_fr_normandieuniv_cemnws_db_CemnEtu_droitPhoto" object="${cemnetu}" z="irxelgj8VEc4TA72BlkLmLCuq5k="/>
         <field:display field="codeCentreSecu" id="s_fr_normandieuniv_cemnws_db_CemnEtu_codeCentreSecu" object="${cemnetu}" z="PCavPFnyDRtrbiPojM/7zPZXW7Q="/>
         <field:display field="centreSecu" id="s_fr_normandieuniv_cemnws_db_CemnEtu_centreSecu" object="${cemnetu}" z="BnvQjSD2FxLEQP2UB2LEFga3+Z4="/>
         <field:display field="anneeUni" id="s_fr_normandieuniv_cemnws_db_CemnEtu_anneeUni" object="${cemnetu}" z="NxKQS3C+9UR+MvF4vEAhkyAepn8="/>
+        <field:display field="codCge" id="s_fr_normandieuniv_cemnws_db_CemnEtu_codCge" object="${cemnetu}" z="lgPyZZ9hqd0qhecUC8lwHnRlOtc="/>
+        <field:display field="libCge" id="s_fr_normandieuniv_cemnws_db_CemnEtu_libCge" object="${cemnetu}" z="eCNprYqovMuHWbxRejDShSawL68="/>
         <field:display field="codCmp" id="s_fr_normandieuniv_cemnws_db_CemnEtu_codCmp" object="${cemnetu}" z="5MqNjsAccU+MXg3rK4WpWCaRF9o="/>
         <field:display field="composante" id="s_fr_normandieuniv_cemnws_db_CemnEtu_composante" object="${cemnetu}" z="Ig5P8t9nkVvs9tV4dUNHnax5IoY="/>
         <field:display field="suaps" id="s_fr_normandieuniv_cemnws_db_CemnEtu_suaps" object="${cemnetu}" z="zhlJoeGnQIO/uvIe6g0NfjmBXkQ="/>
