@@ -6,6 +6,8 @@ package fr.normandieuniv.cemnws.web;
 import fr.normandieuniv.cemnws.db.CemnEtu;
 import fr.normandieuniv.cemnws.web.CemnEtuController;
 import java.math.BigDecimal;
+import org.joda.time.format.DateTimeFormat;
+import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,6 +17,7 @@ privileged aspect CemnEtuController_Roo_Controller {
     
     @RequestMapping(value = "/{codEtu}", produces = "text/html")
     public String CemnEtuController.show(@PathVariable("codEtu") BigDecimal codEtu, Model uiModel) {
+        addDateTimeFormatPatterns(uiModel);
         uiModel.addAttribute("cemnetu", CemnEtu.findCemnEtu(codEtu));
         uiModel.addAttribute("itemId", codEtu);
         return "cemnetus/show";
@@ -31,7 +34,13 @@ privileged aspect CemnEtuController_Roo_Controller {
         } else {
             uiModel.addAttribute("cemnetus", CemnEtu.findAllCemnEtus());
         }
+        addDateTimeFormatPatterns(uiModel);
         return "cemnetus/list";
+    }
+    
+    void CemnEtuController.addDateTimeFormatPatterns(Model uiModel) {
+        uiModel.addAttribute("cemnEtu_datenai_date_format", DateTimeFormat.patternForStyle("MM", LocaleContextHolder.getLocale()));
+        uiModel.addAttribute("cemnEtu_datefinval_date_format", DateTimeFormat.patternForStyle("MM", LocaleContextHolder.getLocale()));
     }
     
 }

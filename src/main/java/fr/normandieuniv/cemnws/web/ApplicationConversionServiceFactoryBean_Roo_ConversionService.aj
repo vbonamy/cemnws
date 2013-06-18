@@ -17,7 +17,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<CemnEtu, String> ApplicationConversionServiceFactoryBean.getCemnEtuToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<fr.normandieuniv.cemnws.db.CemnEtu, java.lang.String>() {
             public String convert(CemnEtu cemnEtu) {
-                return new StringBuilder().append(cemnEtu.getRefNu()).append(' ').append(cemnEtu.getPersid()).append(' ').append(cemnEtu.getEmailEtab()).toString();
+                return new StringBuilder().append(cemnEtu.getNomSurCarte()).append(' ').append(cemnEtu.getNomUsuel()).append(' ').append(cemnEtu.getNomPat()).append(' ').append(cemnEtu.getPrenom()).toString();
             }
         };
     }
