@@ -13,7 +13,7 @@ import org.springframework.roo.addon.tostring.RooToString;
 @RooJavaBean
 @RooToString
 @RooDbManaged(automaticallyDelete = true)
-@RooJpaActiveRecord(versionField = "", table = "V_NORMANDIE_LEOCARTE_ETU", schema = "APOGEE", finders = { "findCemnEtusByAnneeUniEquals", "findCemnEtusByAnneeUniEqualsAndCodEtuEquals", "findCemnEtusByAnneeUniEqualsAndNomSurCarteLike", "findCemnEtusByAnneeUniEqualsAndCodEtuEqualsAndNomSurCarteLike", "findCemnEtusByAnneeUniEqualsAndCodEtuEqualsOrAnneeUniEqualsAndNomSurCarteLike" })
+@RooJpaActiveRecord(versionField = "", table = "V_NORMANDIE_LEOCARTE_ETU", finders = { "findCemnEtusByAnneeUniEquals", "findCemnEtusByAnneeUniEqualsAndCodEtuEquals", "findCemnEtusByAnneeUniEqualsAndNomSurCarteLike", "findCemnEtusByAnneeUniEqualsAndCodEtuEqualsAndNomSurCarteLike", "findCemnEtusByAnneeUniEqualsAndCodEtuEqualsOrAnneeUniEqualsAndNomSurCarteLike" })
 public class CemnEtu {
 
     @Id
